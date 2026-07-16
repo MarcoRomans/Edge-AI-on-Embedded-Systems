@@ -1,0 +1,4 @@
+model_label,scenario,runtime,execution,temperature,runs,latency_mean_ms,latency_std_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,accuracy_correct,accuracy_total,exact_match_mean,exact_match_correct,exact_match_total,bertscore_f1_mean,bertscore_f1_std
+qwen05,baseline_cpu_final_temp_05,llama.cpp/llama-completion,CPU,0.5,45,6716.326,4115.009,3995.807,829.117,7.52,0.126,0.727,24,33,0.455,15,33,,
+qwen05,baseline_cpu_final_temp_07,llama.cpp/llama-completion,CPU,0.7,45,6606.18,4367.047,4000.618,826.674,7.526,0.15,0.727,24,33,0.455,15,33,,
+qwen05,baseline_cpu_final_temp_10,llama.cpp/llama-completion,CPU,1.0,45,6913.818,4638.899,3992.634,826.823,7.552,0.08,0.788,26,33,0.455,15,33,,

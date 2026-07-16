@@ -1,0 +1,4 @@
+model_label,temperature,discursive_rows,bertscore_precision_mean,bertscore_recall_mean,bertscore_f1_mean,bertscore_f1_std
+qwen05,0.5,12,0.3309,0.3894,0.3607,0.1066
+qwen05,0.7,12,0.3589,0.4017,0.3807,0.1326
+qwen05,1.0,12,0.2952,0.3762,0.3362,0.118
