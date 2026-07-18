@@ -1,0 +1,12 @@
+Script
+Questa cartella contiene gli script e i launcher utilizzati per documentare gli esperimenti CPU-based con i modelli Qwen2.5 sulla BeagleBone AI-64.
+
+Gli esperimenti sono organizzati nel seguente modo:
+
+point2_baseline/: esperimenti baseline di inferenza a diverse temperature.
+point3_stress_isolation/: esperimenti con stress CPU e isolamento dei processi.
+point4_realtime_loop/: esperimenti in real-time loop.
+utilities/: script di supporto per sintesi dei risultati e calcolo delle metriche.
+I modelli Qwen sono stati eseguiti tramite llama.cpp usando file modello in formato GGUF salvati localmente sulla BeagleBone AI-64.
+
+I file dei modelli non sono inclusi nel repository perchè hanno dimensioni elevate.
