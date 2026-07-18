@@ -1,0 +1,2 @@
+scenario,model_label,temperature,runs,prompt_count,model_size_file_mb,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,accuracy_correct,accuracy_total,exact_match_mean,exact_match_correct,exact_match_total
+baseline_cpu_final,qwen15,1.0,45,15,1126,15826.982,5533.990,9631.560,36105.080,11330.349,2368.045,2.918,0.018,0.909,30,33,0.606,20,33

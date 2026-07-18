@@ -1,0 +1,4 @@
+model_label,temperature,runs,prompt_count,model_size_file_mb,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,exact_match_mean
+qwen15,0.5,45,15,1126,15638.608,5657.035,9621.780,36101.100,11327.088,2365.958,2.922,0.022,0.879,0.636
+qwen15,0.7,45,15,1126,15596.346,5595.181,9649.350,36251.890,11350.086,2369.543,2.896,0.064,0.879,0.606
+qwen15,1.0,45,15,1126,15826.982,5533.990,9631.560,36105.080,11330.349,2368.045,2.918,0.018,0.909,0.606
