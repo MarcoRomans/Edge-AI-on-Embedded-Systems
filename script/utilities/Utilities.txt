@@ -1,0 +1,9 @@
+Utilities
+Questa cartella contiene script di supporto per la post-elaborazione dei risultati sperimentali.
+
+Gli script inclusi servono a:
+
+calcolare il deadline miss ratio a partire dai valori di latenza;
+generare sintesi compatte dei risultati real-time;
+supportare l'organizzazione e l'analisi dei CSV prodotti durante gli esperimenti.
+I risultati finali già elaborati sono disponibili nella cartella raw_data/.
