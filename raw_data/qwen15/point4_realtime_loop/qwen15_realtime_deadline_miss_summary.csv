@@ -1,0 +1,4 @@
+model,scenario,runs,deadline_20s_miss_ratio,deadline_30s_miss_ratio
+Qwen2.5-1.5B,realtime_baseline,30,0.0,0.0
+Qwen2.5-1.5B,realtime_stress_cpu_matrix,30,1.0,1.0
+Qwen2.5-1.5B,realtime_stress_cpu_matrix_process_isolation,30,1.0,1.0
