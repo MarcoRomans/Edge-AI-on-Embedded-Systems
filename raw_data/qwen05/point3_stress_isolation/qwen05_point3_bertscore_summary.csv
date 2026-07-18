@@ -1,0 +1,4 @@
+scenario,model_label,temperature,discursive_rows,bertscore_precision_mean,bertscore_recall_mean,bertscore_f1_mean,bertscore_f1_std
+baseline,qwen05,0.7,12,0.3589,0.4017,0.3807,0.1326
+stress_cpu_matrix,qwen05,0.7,12,0.3385,0.4171,0.3782,0.1542
+stress_cpu_matrix_process_isolation,qwen05,0.7,12,0.3307,0.399,0.3652,0.126

@@ -1,0 +1,5 @@
+model_label,scenario,runtime,execution,temperature,group_type,group_value,runs,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,accuracy_correct,accuracy_total,exact_match_mean,exact_match_correct,exact_match_total
+qwen05,stress_cpu_matrix_process_isolation,llama.cpp/llama-completion,CPU,0.7,global,all,45,12999.209,6744.505,6862.74,38513.99,8031.74,1664.546,3.876,0.049,0.727,24,33,0.424,14,33
+qwen05,stress_cpu_matrix_process_isolation,llama.cpp/llama-completion,CPU,0.7,task_type,closed,24,9055.519,1614.859,6862.74,10914.38,8876.0,1681.643,3.875,0.044,0.75,18,24,0.583,14,24
+qwen05,stress_cpu_matrix_process_isolation,llama.cpp/llama-completion,CPU,0.7,task_type,structured,9,15302.66,5161.582,11876.38,23613.99,7639.612,1313.753,3.867,0.078,0.667,6,9,0.0,0,9
+qwen05,stress_cpu_matrix_process_isolation,llama.cpp/llama-completion,CPU,0.7,task_type,discursive,12,19159.002,8801.028,11683.43,38513.99,6637.318,335.5,3.885,0.028,,,,,,

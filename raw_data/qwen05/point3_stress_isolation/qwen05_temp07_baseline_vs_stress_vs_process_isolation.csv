@@ -1,0 +1,10 @@
+metric,baseline_temp07,stress_cpu_temp07,process_isolation_temp07,stress_vs_baseline_pct,isolation_vs_baseline_pct,isolation_vs_stress_pct
+latency_mean_ms,6606.18,17339.716,12999.209,162.48,96.77,-25.03
+latency_std_ms,4367.047,16009.098,6744.505,266.59,54.44,-57.87
+latency_max_ms,24680.18,88874.25,38513.99,260.1,56.05,-56.66
+ttft_warm_mean_ms,4000.618,8264.161,8031.74,106.57,100.76,-2.81
+ttft_warm_std_ms,826.674,1648.082,1664.546,99.36,101.35,1.0
+tgs_mean_tok_s,7.526,2.627,3.876,-65.09,-48.5,47.54
+tgs_std_tok_s,0.15,0.593,0.049,295.33,-67.33,-91.74
+accuracy_mean,0.727,0.667,0.727,-8.25,0.0,9.0
+exact_match_mean,0.455,0.455,0.424,0.0,-6.81,-6.81

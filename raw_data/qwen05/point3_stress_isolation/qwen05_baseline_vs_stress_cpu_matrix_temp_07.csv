@@ -1,0 +1,10 @@
+metric,baseline_temp07,stress_cpu_matrix_temp07,absolute_delta,percentage_delta
+latency_mean_ms,6606.18,17339.716,10733.536,162.48
+latency_std_ms,4367.047,16009.098,11642.051,266.59
+latency_max_ms,24680.18,88874.25,64194.07,260.1
+ttft_warm_mean_ms,4000.618,8264.161,4263.543,106.57
+ttft_warm_std_ms,826.674,1648.082,821.408,99.36
+tgs_mean_tok_s,7.526,2.627,-4.899,-65.09
+tgs_std_tok_s,0.15,0.593,0.443,295.33
+accuracy_mean,0.727,0.667,-0.06,-8.25
+exact_match_mean,0.455,0.455,0.0,0.0
