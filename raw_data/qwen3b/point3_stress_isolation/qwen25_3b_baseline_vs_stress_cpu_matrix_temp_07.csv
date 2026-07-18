@@ -1,0 +1,3 @@
+scenario,runs_total,valid_latency_runs,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,throughput_mean_tok_s,accuracy_mean,exact_match_mean,timeouts,return_code_nonzero
+baseline_cpu,45,45,47704.22533333333,12546.899946346146,27590.68,75815.11,38552.619175555556,0.996,0.8181818181818182,0.6363636363636364,0,0
+stress_cpu_matrix,45,40,81345.943,13328.670219502867,54793.02,103631.97,67793.9738525,0.43499999999999994,0.8181818181818182,0.6363636363636364,5,0

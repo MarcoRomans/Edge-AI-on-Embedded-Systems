@@ -1,0 +1,4 @@
+scenario,bertscore_precision_mean,bertscore_recall_mean,bertscore_f1_mean,note
+baseline_cpu_temp_07,,,0.488818,BERTScore computed for discursive prompts; used as semantic-quality check.
+stress_cpu_matrix_temp_07,,,0.467,BERTScore computed for discursive prompts; used as semantic-quality check.
+stress_cpu_matrix_process_isolation_temp_07,,,0.483996,BERTScore computed for discursive prompts; used as semantic-quality check.
