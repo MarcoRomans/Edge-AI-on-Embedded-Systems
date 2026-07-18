@@ -1,0 +1,2 @@
+scenario,model_label,temperature,runs,prompt_count,model_size_file_mb,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,accuracy_correct,accuracy_total,exact_match_mean,exact_match_correct,exact_match_total,stress_log
+stress_cpu_matrix,qwen15,0.7,45,15,1126,32828.314,12954.596,19473.340,79706.020,22932.838,4691.191,1.306,0.126,0.879,29,33,0.545,18,33,/mnt/i1data/i1-edge-ai-slm/logs/stress_ng_qwen15_cpu_matrix_temp_07_20250924_120014.log

@@ -1,0 +1,3 @@
+scenario_label,model_label,temperature,runs,prompt_count,model_size_file_mb,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_warm_mean_ms,ttft_warm_std_ms,tgs_mean_tok_s,tgs_std_tok_s,accuracy_mean,exact_match_mean
+baseline,qwen15,0.7,45,15,1126,15596.346,5595.181,9649.350,36251.890,11350.086,2369.543,2.896,0.064,0.879,0.606
+stress_cpu_matrix,qwen15,0.7,45,15,1126,32828.314,12954.596,19473.340,79706.020,22932.838,4691.191,1.306,0.126,0.879,0.545

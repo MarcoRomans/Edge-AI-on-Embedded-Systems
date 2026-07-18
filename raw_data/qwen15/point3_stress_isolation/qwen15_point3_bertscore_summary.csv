@@ -1,0 +1,4 @@
+model_label,scenario,temperature,discursive_rows,bertscore_precision_mean,bertscore_recall_mean,bertscore_f1_mean,bertscore_f1_std,source_file
+qwen25_1.5b,baseline,0.7,12,0.528397,0.453279,0.490901,0.13593,qwen15_baseline_cpu_final_temp_07_20250924_124619.csv
+qwen25_1.5b,stress_cpu_matrix,0.7,12,0.511447,0.445553,0.478709,0.15948,qwen15_stress_cpu_matrix_baseline_cpu_final_temp_07_20250924_120019.csv
+qwen25_1.5b,stress_cpu_matrix_process_isolation,0.7,12,0.5437,0.464862,0.504116,0.134805,qwen15_stress_cpu_matrix_process_isolation_baseline_cpu_final_temp_07_20250924_123539.csv
