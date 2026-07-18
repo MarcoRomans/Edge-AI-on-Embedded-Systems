@@ -1,0 +1,4 @@
+model,temperature,valid_latency_runs,total_runs,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_mean_ms,throughput_tok_s,accuracy,exact_match,bertscore_f1
+Qwen2.5-3B,0.5,44,45,48182.321,12509.88,26269.64,81935.77,39121.293,0.971,0.788,0.606,0.487286
+Qwen2.5-3B,0.7,45,45,47704.225,12546.9,27590.68,75815.11,38552.619,0.996,0.818,0.636,0.488818
+Qwen2.5-3B,1.0,45,45,48241.024,12524.176,30246.55,80645.15,38838.934,1.054,0.818,0.636,0.499158

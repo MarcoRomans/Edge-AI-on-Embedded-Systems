@@ -1,0 +1,4 @@
+model,temperature,bertscore_f1
+Qwen2.5-3B,0.5,0.487286
+Qwen2.5-3B,0.7,0.488818
+Qwen2.5-3B,1.0,0.499158

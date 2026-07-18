@@ -1,0 +1,2 @@
+model,temperature,raw_file,valid_latency_runs,total_runs,latency_mean_ms,latency_std_ms,latency_min_ms,latency_max_ms,ttft_mean_ms,throughput_tok_s,accuracy,exact_match,bertscore_f1,note
+Qwen2.5-3B,0.7,qwen25_3b_baseline_cpu_final_temp_07_20250924_132805.csv,45,45,47704.225,12546.9,27590.68,75815.11,38552.619,0.996,0.818,0.636,0.488818,
