@@ -1,0 +1,17 @@
+Punto 4 - Real-time loop
+Questa cartella contiene gli script/launcher relativi agli esperimenti in real-time loop.
+
+Nel punto 4 il modello viene eseguito ripetutamente su un prompt fisso di classificazione, misurando il comportamento temporale dell'inferenza.
+
+Le metriche principali considerate sono:
+
+latenza
+throughput
+jitter
+accuracy
+deadline miss ratio
+I modelli Qwen2.5-0.5B e Qwen2.5-1.5B hanno prodotto risultati validi nel real-time loop.
+
+Il modello Qwen2.5-3B è stato testato, ma viene riportato solo come caso di non fattibilità. Anche riducendo i parametri di esecuzione, il modello non ha prodotto inferenze valide sulla BeagleBone AI-64 a causa di errori di allocazione della memoria.
+
+Per questo motivo, Qwen2.5-3B non è incluso nel confronto quantitativo del punto 4.
