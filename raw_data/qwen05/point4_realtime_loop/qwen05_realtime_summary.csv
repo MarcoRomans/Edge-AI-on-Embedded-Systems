@@ -1,0 +1,4 @@
+model,scenario,runs,temperature,deadline_5s_miss_ratio,deadline_10s_miss_ratio,wall_time_ms_mean,wall_time_ms_std,wall_time_ms_min,wall_time_ms_max,throughput_tps_mean,accuracy_mean,jitter_from_mean_ms_mean,jitter_from_mean_ms_max
+Qwen2.5-0.5B,realtime_baseline,30,0.7,1.0,0.03333333333333333,10078.468966666669,10810.586124886835,7891.065,67310.51,11.485333333333333,0.9,3815.4694333333337,57232.041
+Qwen2.5-0.5B,realtime_stress_cpu_matrix_process_isolation,30,0.7,1.0,1.0,13768.631300000003,274.24265114664655,13434.652,14235.103,5.7026666666666666,0.9666666666666667,252.28423333333336,466.472
+Qwen2.5-0.5B,realtime_stress_cpu_matrix,30,0.7,1.0,1.0,15406.757199999998,523.3797927924578,14558.123,16522.856,5.652,1.0,411.9603333333334,1116.099
