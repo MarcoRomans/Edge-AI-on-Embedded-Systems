@@ -1,0 +1,17 @@
+Punto 2 - Esperimenti baseline
+Questa cartella contiene lo script/launcher relativo agli esperimenti baseline.
+
+La baseline valuta i modelli Qwen2.5 a diverse temperature:
+
+0.5
+0.7
+1.0
+Lo script principale di benchmark è:
+
+text run_qwen_benchmark_final.py
+
+Esempio di utilizzo sulla BeagleBone AI-64:
+
+bash python3 scripts/run_qwen_benchmark_final.py \ --model-label qwen05 \ --model-path /mnt/i1data/i1-edge-ai-slm/models/qwen2.5-0.5b-instruct-q4_k_m.gguf \ --temperature 0.7
+
+I CSV generati dagli esperimenti sono salvati nella cartella raw_data/.
