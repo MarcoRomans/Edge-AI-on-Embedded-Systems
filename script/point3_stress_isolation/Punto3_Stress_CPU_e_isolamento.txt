@@ -1,0 +1,21 @@
+Punto 3 - Stress CPU e isolamento dei processi
+Questa cartella contiene gli script/launcher relativi agli esperimenti di stress CPU e isolamento dei processi.
+
+L'obiettivo del punto 3 è valutare come un carico interferente sulla CPU influenzi le prestazioni di inferenza dei modelli Qwen2.5.
+
+Lo stress CPU è stato generato tramite:
+
+bash stress-ng --cpu 2 --cpu-method matrixprod --metrics-brief
+
+Successivamente è stato applicato un isolamento tramite CPU affinity usando taskset.
+
+L'idea dell'isolamento è separare il processo di inferenza e il processo di stress su core diversi:
+
+bash taskset -c 0 <processo_inferenza> taskset -c 1 <processo_stress>
+
+Sono stati considerati tre scenari:
+
+baseline senza stress
+esecuzione con stress CPU
+esecuzione con stress CPU e isolamento dei processi
+I risultati quantitativi sono contenuti nella cartella raw_data/.
